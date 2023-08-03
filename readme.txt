@@ -1,19 +1,18 @@
 === Query Loop Shortcode ===
-Contributors:      The WordPress Contributors
-Tags:              block
+Contributors:      Ted Tang
+Tags:              shortcode, block
 Tested up to:      6.1
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Display a shortcode within a query loop based on the loop ID, not the parent post/page ID.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
-
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+When using the standard shortcode block within a query loop, the shortcode will render based on the
+parent post/page, not the looped post/page. This plugin provides a block that will render the looped
+post/page instead.
 
 == Installation ==
 
@@ -24,32 +23,15 @@ e.g.
 1. Upload the plugin files to the `/wp-content/plugins/query-loop-shortcode` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
-
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Why is your code so bad? =
 
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
+This is my first WordPress published plugin. I'm new to this :)
 
 == Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
 
 == Changelog ==
 
 = 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+* Initial Release

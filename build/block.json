@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/query-loop-shortcode",
+  "version": "0.1.0",
+  "title": "Query Loop Shortcode",
+  "category": "widgets",
+  "icon": "shortcode",
+  "description": "Display a shortcode within a query loop based on the loop ID, not the parent post/page ID.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "query-loop-shortcode",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "shortcode": {
+      "type": "string",
+      "source": "text",
+      "selector": "",
+      "default": ""
+    }
+  },
+  "usesContext": [
+    "postId"
+  ]
+}

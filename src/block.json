@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "query-loop-shortcode/query-loop-shortcode",
-	"version": "0.1.0",
+	"name": "qls/query-loop-shortcode",
+	"version": "0.1.1",
 	"title": "Query Loop Shortcode",
 	"category": "widgets",
 	"icon": "shortcode",

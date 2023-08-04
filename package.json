@@ -1,6 +1,6 @@
 {
 	"name": "query-loop-shortcode",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Display a shortcode within a query loop based on the loop ID, not the parent post/page ID.",
 	"author": "Ted Tang",
 	"license": "GPL-2.0-or-later",

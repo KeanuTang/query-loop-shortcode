@@ -22,7 +22,7 @@ import { useBlockProps } from '@wordpress/block-editor';
 import './editor.scss';
 
 
-import { TextControl } from '@wordpress/components';
+import { TextControl, Dashicon } from '@wordpress/components';
 
 /**
  * The edit function describes the structure of your block in the context of the
@@ -35,8 +35,9 @@ import { TextControl } from '@wordpress/components';
 export default function Edit( { attributes, setAttributes } ) {
     return (
         <div { ...useBlockProps() }>
+			<Dashicon icon="shortcode" />
             <TextControl
-                label={ __( 'Shortcode', 'shortcode' ) }
+                label={ __( 'Query Loop Shortcode', 'shortcode' ) }
                 value={ attributes.shortcode }
                 onChange={ ( val ) => setAttributes( { shortcode: val } ) }
             />

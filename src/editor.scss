@@ -4,6 +4,8 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-create-block-query-loop-shortcode {
-	border: 1px dotted #f00;
+.wp-block-qls-query-loop-shortcode {
+	border: 1.5px solid black;
+	border-radius: 2px;
+	padding: 1em;
 }
